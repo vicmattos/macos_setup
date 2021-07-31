@@ -16,8 +16,10 @@
     - ~/Work
 
 - shell:
-  - 
-    command: ./setup_homebrew.zsh
+  - command: ./setup_homebrew.zsh
+    stdout: True
+    stderr: True
+  - command: ./setup_zsh.zsh
     stdout: True
     stderr: True
 
