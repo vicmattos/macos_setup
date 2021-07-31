@@ -14,6 +14,7 @@ alias ls='exa --long --all --classify --header --git' # -laFh --git
 alias exa='exa --long --all --classify --header --git' # -laFh --git
 alias man=batman
 alias bbd='brew bundle dump --force --describe'
+alias trail='<<<${(F)path}'
 
 
 # Customize Prompt(s)
