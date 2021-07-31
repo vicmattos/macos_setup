@@ -13,6 +13,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 alias ls='exa --long --all --classify --header --git' # -laFh --git
 alias exa='exa --long --all --classify --header --git' # -laFh --git
 alias man=batman
+alias bbd='brew bundle dump --force --describe'
 
 
 # Customize Prompt(s)
