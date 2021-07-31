@@ -2,9 +2,8 @@ echo 'Hello from .zshrc'
 
 
 # Set Veriables
-# Syntax highlighting for man pages using bat
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+
 
 # Change ZSH Options
 
@@ -13,6 +12,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 # alias ls='ls -lAFh'
 alias ls='exa --long --all --classify --header --git' # -laFh --git
 alias exa='exa --long --all --classify --header --git' # -laFh --git
+alias man=batman
 
 
 # Customize Prompt(s)
