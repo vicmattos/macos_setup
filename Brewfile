@@ -21,3 +21,4 @@ cask "gitkraken"
 cask "google-chrome"
 # Open-source code editor
 cask "visual-studio-code"
+mas "Snappy", id: 512617038
