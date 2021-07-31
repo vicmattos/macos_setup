@@ -12,3 +12,4 @@ This is my personal dot files repository for the MacOS
 - Git (config and SSH)
 - Alfred (turn off Spotlight shortcut and use for Alfred)
 - Snappy (turn off cmd+shift+4 for screenshots and use for Snappy)
+- GitKraken (change e-mail in profile to use github's noreply)
