@@ -3,13 +3,13 @@ echo 'Hello from .zshrc'
 
 # Set Veriables
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+export NULLCMD=bat
 
 
 # Change ZSH Options
 
 
 # Create Aliases
-# alias ls='ls -lAFh'
 alias ls='exa --long --all --classify --header --git' # -laFh --git
 alias exa='exa --long --all --classify --header --git' # -laFh --git
 alias man=batman
