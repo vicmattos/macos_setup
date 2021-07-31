@@ -12,6 +12,8 @@ brew "git"
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
+# Vi 'workalike' with many additional features
+brew "vim"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
