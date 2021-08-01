@@ -3,3 +3,5 @@
 	email = 5757883+vicmattos@users.noreply.github.com
 [core]
 	editor = code --wait
+[alias]
+	s = !git status -s
