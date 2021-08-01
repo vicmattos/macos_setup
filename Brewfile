@@ -14,6 +14,8 @@ brew "httpie"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
+# Node version management
+brew "n"
 # Vi 'workalike' with many additional features
 brew "vim"
 # UNIX shell (command interpreter)
