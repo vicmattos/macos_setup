@@ -5,3 +5,4 @@
 	editor = code --wait
 [alias]
 	s = !git status -s
+	ac = !git add --all && git commit -m
