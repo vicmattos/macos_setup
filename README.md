@@ -1,6 +1,8 @@
 # dotfiles
 
-This is my personal dot files repository for the MacOS
+This is my personal dot files repository for the MacOS.
+
+I learned about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz), and so can you!
 
 
 ## TODO
