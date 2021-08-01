@@ -13,7 +13,10 @@
       path: config/bat
 
 - create:
-    - ~/Work
+    - ~/Work/Personal/Current
+    - ~/Work/Personal/Archive
+    - ~/Work/Personal/Sandbox
+    - ~/Work/Courses
 
 - shell:
   - command: ./setup_homebrew.zsh
