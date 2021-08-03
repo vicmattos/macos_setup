@@ -16,6 +16,8 @@ brew "less"
 brew "mas"
 # Node version management
 brew "n"
+# Python version management
+brew "pyenv"
 # Vi 'workalike' with many additional features
 brew "vim"
 # UNIX shell (command interpreter)
