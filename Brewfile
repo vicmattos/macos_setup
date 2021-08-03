@@ -32,4 +32,6 @@ cask "gitkraken"
 cask "google-chrome"
 # Open-source code editor
 cask "visual-studio-code"
+# Desktop client for WhatsApp
+cask "whatsapp"
 mas "Snappy", id: 512617038
