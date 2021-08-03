@@ -28,6 +28,7 @@ PROMPT='
 
 RPROMPT='%*'
 
+
 # Add Locations to the $path Array
 typeset -U path
 
@@ -38,6 +39,7 @@ path=(
   $path
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 )
+
 
 # Write Handy Functions
 function mkcd() {
@@ -51,3 +53,4 @@ eval "$(pyenv init -)"
 
 
 # ...and Other Surprises
+
