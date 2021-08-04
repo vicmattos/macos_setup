@@ -18,6 +18,8 @@ brew "less"
 brew "mas"
 # Node version management
 brew "n"
+# Python package management tool
+brew "poetry"
 # Python version management
 brew "pyenv"
 # Vi 'workalike' with many additional features
