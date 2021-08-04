@@ -20,6 +20,7 @@ alias man=batman
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias rm=trash
+alias l4b=log4brains
 
 
 # Customize Prompt(s)
