@@ -10,6 +10,8 @@ brew "exa"
 brew "git"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# LastPass command-line interface tool
+brew "lastpass-cli"
 # Pager program similar to more
 brew "less"
 # Mac App Store command-line interface
@@ -30,6 +32,8 @@ cask "dropbox"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Password manager
+cask "lastpass"
 # Team communication and collaboration software
 cask "slack"
 # Open-source code editor
