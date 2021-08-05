@@ -14,6 +14,7 @@ fi
 
 
 # Install Global NPM Packages
+npm install --global aws-cdk
 npm install --global serverless
 npm install --global log4brains
 npm install --global trash-cli
