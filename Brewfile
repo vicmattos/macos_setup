@@ -40,6 +40,8 @@ cask "google-chrome"
 cask "lastpass"
 # Team communication and collaboration software
 cask "slack"
+# Free and open-source hosted hypervisor for x86 virtualization
+cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
 # Desktop client for WhatsApp

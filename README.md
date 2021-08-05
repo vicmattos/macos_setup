@@ -15,3 +15,4 @@ I learned about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz), and
 - Alfred (turn off Spotlight shortcut and use for Alfred)
 - Snappy (turn off cmd+shift+4 for screenshots and use for Snappy)
 - GitKraken (change e-mail in profile to use github's noreply)
+- VirtualBox (allow developer “Oracle America, inc” in "Security & Privacy" on install)
