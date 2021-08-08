@@ -30,6 +30,8 @@ brew "zsh"
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
 cask "alfred"
+# App to build and share containerized applications and microservices
+cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Git client focusing on productivity
