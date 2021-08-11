@@ -40,8 +40,6 @@ cask "dropbox"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
-# Password manager
-cask "lastpass"
 # Team communication and collaboration software
 cask "slack"
 # Free and open-source hosted hypervisor for x86 virtualization
@@ -50,4 +48,5 @@ cask "virtualbox"
 cask "visual-studio-code"
 # Desktop client for WhatsApp
 cask "whatsapp"
+mas "LastPass", id: 926036361
 mas "Snappy", id: 512617038
