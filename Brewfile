@@ -48,5 +48,7 @@ cask "virtualbox"
 cask "visual-studio-code"
 # Desktop client for WhatsApp
 cask "whatsapp"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "LastPass", id: 926036361
 mas "Snappy", id: 512617038
