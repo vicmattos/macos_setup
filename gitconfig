@@ -4,8 +4,9 @@
 [core]
 	editor = code --wait
 [alias]
-	s = !git status -s
+	s = !git status --short
 	b = !git branch --all
+	ac = !git add --all && git commit --message
 	l = !git log --pretty=format:'%C(blue)%h - %C(brightcyan)%cn, %C(brightgreen)%cs %C(green)(%cr) %C(white)%s %C(red)%d'
 [init]
 	defaultBranch = main
