@@ -42,6 +42,8 @@ cask "gitkraken"
 cask "google-chrome"
 # Team communication and collaboration software
 cask "slack"
+# Music streaming service
+cask "spotify"
 # Free and open-source hosted hypervisor for x86 virtualization
 cask "virtualbox"
 # Open-source code editor
