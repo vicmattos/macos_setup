@@ -14,5 +14,6 @@ else
   pyenv global miniforge3-4.10.1-5
 fi
 
+pip install --upgrade pip
 echo "Global Python Versions Installed:"
 pyenv versions
