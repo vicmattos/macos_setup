@@ -15,5 +15,8 @@ else
 fi
 
 pip install --upgrade pip
+pip install flake8
+pip install mypy
+
 echo "Global Python Versions Installed:"
 pyenv versions
