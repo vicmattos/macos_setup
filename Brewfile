@@ -22,6 +22,8 @@ brew "mas"
 brew "n"
 # Python package management tool
 brew "poetry"
+# Framework for managing multi-language pre-commit hooks
+brew "pre-commit"
 # Python version management
 brew "pyenv"
 # Vi 'workalike' with many additional features
@@ -34,6 +36,8 @@ brew "eth-p/software/bat-extras"
 cask "alfred"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Draw.io is free online diagram software
+cask "drawio"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Git client focusing on productivity
