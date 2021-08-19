@@ -1,3 +1,4 @@
+tap "dbt-labs/dbt"
 tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -30,6 +31,8 @@ brew "pyenv"
 brew "vim"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Data build tool
+brew "dbt-labs/dbt/dbt"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
