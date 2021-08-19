@@ -3,6 +3,7 @@ tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "nathan-v/aws-okta-keyman"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -35,6 +36,8 @@ brew "zsh"
 brew "dbt-labs/dbt/dbt"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
+# Pulls AWS API keys using an Okta SAML assertion
+brew "nathan-v/aws-okta-keyman/aws_okta_keyman"
 # Application launcher and productivity software
 cask "alfred"
 # Voice and text chat software
