@@ -14,6 +14,8 @@ brew "gh"
 brew "git"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Little helper to run Rancher Lab's k3s in Docker
+brew "k3d"
 # LastPass command-line interface tool
 brew "lastpass-cli"
 # Pager program similar to more
