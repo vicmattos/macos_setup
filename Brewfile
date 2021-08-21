@@ -12,6 +12,8 @@ brew "exa"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Kubernetes package manager
+brew "helm"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Little helper to run Rancher Lab's k3s in Docker
