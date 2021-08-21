@@ -11,6 +11,9 @@ export PYENV_SHELL=zsh
 
 
 # Change ZSH Options
+# Enable custom auto completion for commands
+autoload -Uz compinit
+compinit
 
 
 # Create Aliases
@@ -48,6 +51,8 @@ function mkcd() {
 }
 # Subcommands shell & rehash for pyenv
 eval "$(pyenv init -)"
+# k3d command completion
+eval "$(k3d completion zsh)"
 
 
 # Use ZSH Plugins
