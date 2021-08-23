@@ -4,6 +4,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "nathan-v/aws-okta-keyman"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
