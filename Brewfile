@@ -18,6 +18,8 @@ brew "helm"
 brew "httpie"
 # Little helper to run Rancher Lab's k3s in Docker
 brew "k3d"
+# Tool that can switch between kubectl contexts easily and create aliases
+brew "kubectx"
 # LastPass command-line interface tool
 brew "lastpass-cli"
 # Pager program similar to more
