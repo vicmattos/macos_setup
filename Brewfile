@@ -8,6 +8,10 @@ tap "nathan-v/aws-okta-keyman"
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Create Docker hosts locally and on cloud providers
+brew "docker-machine"
+# Docker Machine driver for xhyve
+brew "docker-machine-driver-xhyve"
 # Modern replacement for 'ls'
 brew "exa"
 # GitHub command-line tool
@@ -40,6 +44,8 @@ brew "pyenv"
 brew "terraform"
 # Vi 'workalike' with many additional features
 brew "vim"
+# Lightweight macOS virtualization solution based on FreeBSD's bhyve
+brew "xhyve"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Data build tool
