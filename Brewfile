@@ -36,6 +36,8 @@ brew "poetry"
 brew "pre-commit"
 # Python version management
 brew "pyenv"
+# Tool to build, change, and version infrastructure
+brew "terraform"
 # Vi 'workalike' with many additional features
 brew "vim"
 # UNIX shell (command interpreter)
