@@ -42,6 +42,8 @@ brew "pre-commit"
 brew "pyenv"
 # Tool to build, change, and version infrastructure
 brew "terraform"
+# Simplified and community-driven man pages
+brew "tldr"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Lightweight macOS virtualization solution based on FreeBSD's bhyve
