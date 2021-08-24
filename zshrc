@@ -24,6 +24,7 @@ alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias rm=trash
 alias l4b=log4brains
+alias ads='DOCKER_BUILDKIT=0 astro dev start'
 
 
 # Customize Prompt(s)

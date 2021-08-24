@@ -1,3 +1,4 @@
+tap "astronomer/tap"
 tap "dbt-labs/dbt"
 tap "eth-p/software"
 tap "homebrew/bundle"
@@ -50,6 +51,8 @@ brew "vim"
 brew "xhyve"
 # UNIX shell (command interpreter)
 brew "zsh"
+# To build and run Airflow DAGs locally via docker-compose and deploy DAGs to Astronomer-managed Airflow clusters and interact with the Astronomer API.
+brew "astronomer/tap/astro"
 # Data build tool
 brew "dbt-labs/dbt/dbt"
 # Bash scripts that integrate bat with various command-line tools
