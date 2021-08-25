@@ -87,3 +87,4 @@ cask "whatsapp"
 cask "zoom"
 mas "LastPass", id: 926036361
 mas "Snappy", id: 512617038
+mas "Todoist", id: 585829637
