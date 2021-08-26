@@ -8,6 +8,7 @@ export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 export PYENV_ROOT="$HOME/.pyenv"
 export PYENV_SHELL=zsh
+export JENV_ROOT="$HOME/.jenv"
 
 
 # Change ZSH Options
@@ -41,6 +42,7 @@ path=(
   "$PYENV_ROOT/bin"
   "$PYENV_ROOT/shims"
   "$N_PREFIX/bin"
+  "$JENV_ROOT/bin"
   $path
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 )
@@ -52,6 +54,8 @@ function mkcd() {
 }
 # Subcommands shell & rehash for pyenv
 eval "$(pyenv init -)"
+# jEnv configuration
+eval "$(jenv init -)"
 # k3d command completion
 eval "$(k3d completion zsh)"
 

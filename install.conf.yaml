@@ -31,6 +31,9 @@
   - command: ./setup_node.zsh
     stdout: True
     stderr: True
+  - command: ./setup_java.zsh
+    stdout: True
+    stderr: True
   - command: ./setup_virtualization.zsh
     stdout: True
     stderr: True

@@ -23,6 +23,8 @@ brew "git"
 brew "helm"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Manage your Java environment
+brew "jenv"
 # Little helper to run Rancher Lab's k3s in Docker
 brew "k3d"
 # Tool that can switch between kubectl contexts easily and create aliases
@@ -35,6 +37,10 @@ brew "less"
 brew "mas"
 # Node version management
 brew "n"
+# Development kit for the Java programming language
+brew "openjdk"
+# Development kit for the Java programming language
+brew "openjdk@11"
 # Python package management tool
 brew "poetry"
 # Framework for managing multi-language pre-commit hooks
