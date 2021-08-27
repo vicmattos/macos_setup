@@ -67,6 +67,8 @@ brew "eth-p/software/bat-extras"
 brew "nathan-v/aws-okta-keyman/aws_okta_keyman"
 # Application launcher and productivity software
 cask "alfred"
+# Universal database tool and SQL client
+cask "dbeaver-community"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
