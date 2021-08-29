@@ -37,6 +37,8 @@ brew "less"
 brew "mas"
 # Node version management
 brew "n"
+# Flexible test automation for Python
+brew "nox"
 # Development kit for the Java programming language
 brew "openjdk"
 # Development kit for the Java programming language
