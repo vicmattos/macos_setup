@@ -10,7 +10,10 @@ export PREFIX="$N_PREFIX"
 export PYENV_ROOT="$HOME/.pyenv"
 export PYENV_SHELL=zsh
 export JENV_ROOT="$HOME/.jenv"
-
+# DBT EnvVars
+export SNOWFLAKE_TRANSFORM_WAREHOUSE=DATATECH_XS
+export SNOWFLAKE_LOAD_DATABASE=RAW
+export SNOWFLAKE_SNAPSHOT_DATABASE='SNOWFLAKE'
 
 # Change ZSH Options
 # Enable custom auto completion for commands
