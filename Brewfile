@@ -83,6 +83,8 @@ cask "dropbox"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
