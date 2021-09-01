@@ -3,6 +3,7 @@ echo 'Hello from .zshrc'
 
 # Set Veriables
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+export EDITOR="code --wait"
 export NULLCMD=bat
 export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
