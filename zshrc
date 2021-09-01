@@ -31,6 +31,9 @@ alias trail='<<<${(F)path}'
 alias rm=trash
 alias l4b=log4brains
 alias ads='DOCKER_BUILDKIT=0 astro dev start'
+# DBT helpers
+alias dbt_refresh='dbt clean ; dbt deps ; dbt seed'
+alias dbt_open_docs='dbt docs generate && dbt docs serve'
 
 
 # Customize Prompt(s)
