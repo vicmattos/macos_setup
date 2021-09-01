@@ -52,16 +52,16 @@ path=(
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
-# Subcommands shell & rehash for pyenv
-eval "$(pyenv init -)"
-# jEnv configuration
-eval "$(jenv init -)"
-# k3d command completion
-eval "$(k3d completion zsh)"
 
 
 # Use ZSH Plugins
 
 
 # ...and Other Surprises
+# Subcommands shell & rehash for pyenv
+eval "$(pyenv init -)"
+# jEnv configuration
+eval "$(jenv init -)"
+# k3d command completion
+eval "$(k3d completion zsh)"
 
