@@ -53,7 +53,7 @@ path=(
   "$JENV_ROOT/bin"
   $path
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-  "/Users/victor/.local/bin" # pipx ensurepath
+  "$HOME/.local/bin" # pipx ensurepath
 )
 
 
