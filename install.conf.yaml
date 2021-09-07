@@ -15,7 +15,7 @@
 - create:
     - ~/Work/Personal/Current
     - ~/Work/Personal/Archive
-    - ~/Work/Personal/Sandbox
+    - ~/Work/Sandbox
     - ~/Work/Courses
 
 - shell:
