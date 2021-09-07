@@ -45,6 +45,8 @@ brew "nox"
 brew "openjdk"
 # Development kit for the Java programming language
 brew "openjdk@11"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
 # Python package management tool
 brew "poetry"
 # Framework for managing multi-language pre-commit hooks
