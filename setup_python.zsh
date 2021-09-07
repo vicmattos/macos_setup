@@ -16,5 +16,8 @@ fi
 
 pip install --upgrade pip
 
+pipx install nox
+pipx inject nox nox-poetry
+
 echo "Global Python Versions Installed:"
 pyenv versions
