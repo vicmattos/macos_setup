@@ -45,8 +45,6 @@ brew "openjdk@11"
 brew "pipx"
 # Python package management tool
 brew "poetry"
-# Framework for managing multi-language pre-commit hooks
-brew "pre-commit"
 # Python version management
 brew "pyenv"
 # Tool to build, change, and version infrastructure

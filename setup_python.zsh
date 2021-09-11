@@ -19,6 +19,7 @@ pip install --user --upgrade pip
 pipx install nox
 pipx inject nox nox-poetry
 pipx install cookiecutter
+pipx install pre-commit
 
 echo "Global Python Versions Installed:"
 pyenv versions
