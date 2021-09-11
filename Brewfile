@@ -9,8 +9,6 @@ tap "nathan-v/aws-okta-keyman"
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Utility that creates projects from templates
-brew "cookiecutter"
 # Create Docker hosts locally and on cloud providers
 brew "docker-machine"
 # Docker Machine driver for xhyve
