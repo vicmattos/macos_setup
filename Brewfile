@@ -47,6 +47,10 @@ brew "pipx"
 brew "poetry"
 # Python version management
 brew "pyenv"
+# Make Python build faster, using the leverage of `ccache`
+brew "pyenv-ccache"
+# Pyenv plugin to manage virtualenv
+brew "pyenv-virtualenv"
 # Tool to build, change, and version infrastructure
 brew "terraform"
 # Simplified and community-driven man pages
