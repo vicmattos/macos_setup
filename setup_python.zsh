@@ -10,7 +10,8 @@ if [ $(pyenv versions --bare) ]; then
   echo "Python $(pyenv versions --bare) already installed"
 else
   echo "Installing Python & conda with pyenv..."
-  pyenv install miniforge3-4.10.1-5
+  pyenv install miniforge3-4.9.2 # Python 3.8.8
+  pyenv install miniforge3-4.10.1-5 # Python 3.9.5 
   pyenv global miniforge3-4.10.1-5
 fi
 
