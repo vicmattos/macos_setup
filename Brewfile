@@ -5,6 +5,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "nathan-v/aws-okta-keyman"
+# AWS Cloud Development Kit - framework for defining AWS infra as code
+brew "aws-cdk"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
