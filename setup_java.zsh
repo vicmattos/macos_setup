@@ -9,8 +9,8 @@ if exists java; then
   echo "Java already installed \n$(java --version)"
 else
   echo "Configuring Java with jEnv"
-  jenv add /usr/local/opt/openjdk/libexec/openjdk.jdk/Contents/Home
-  jenv add /usr/local/opt/openjdk@8/libexec/openjdk.jdk/Contents/Home
-  jenv add /usr/local/opt/openjdk@11/libexec/openjdk.jdk/Contents/Home
+  jenv add $(brew --prefix openjdk)/libexec/openjdk.jdk/Contents/Home
+  jenv add $(brew --prefix openjdk@8)/libexec/openjdk.jdk/Contents/Home
+  jenv add $(brew --prefix openjdk@11)/libexec/openjdk.jdk/Contents/Home
   jenv global 11
 fi
