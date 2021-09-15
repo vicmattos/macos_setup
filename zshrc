@@ -14,6 +14,9 @@ export JENV_ROOT="$HOME/.jenv"
 export SNOWFLAKE_TRANSFORM_WAREHOUSE=DATATECH_XS
 export SNOWFLAKE_LOAD_DATABASE=RAW
 export SNOWFLAKE_SNAPSHOT_DATABASE='SNOWFLAKE'
+# Spark EnvVars
+export PYSPARK_PYTHON=python3 # Using pyenv global default
+export PYSPARK_DRIVER_PYTHON=python3
 
 # Change ZSH Options
 # Enable custom auto completion for commands
