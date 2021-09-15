@@ -43,6 +43,8 @@ brew "n"
 brew "openjdk"
 # Development kit for the Java programming language
 brew "openjdk@11"
+# Development kit for the Java programming language
+brew "openjdk@8"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python package management tool

@@ -10,6 +10,7 @@ if exists java; then
 else
   echo "Configuring Java with jEnv"
   jenv add /usr/local/opt/openjdk/libexec/openjdk.jdk/Contents/Home
+  jenv add /usr/local/opt/openjdk@8/libexec/openjdk.jdk/Contents/Home
   jenv add /usr/local/opt/openjdk@11/libexec/openjdk.jdk/Contents/Home
   jenv global 11
 fi
