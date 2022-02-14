@@ -1,5 +1,6 @@
 echo 'Hello from .zshrc'
 
+source ~/.zshrc.d/hello.zshrc
 
 # Set Veriables
 export HOMEBREW_CASK_OPTS="--no-quarantine"
