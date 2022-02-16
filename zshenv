@@ -9,3 +9,8 @@ function exists() {
   # More explicit:
   # command -v $1 1>/dev/null 2>/dev/null
 }
+
+
+function nodexists() {
+  npm list -g $1 >/dev/null 2>&1
+}
