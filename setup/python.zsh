@@ -9,18 +9,13 @@ echo "\n<<< Starting Python Setup >>>\n"
 if [ $(pyenv versions --bare) ]; then
   echo "Python $(pyenv versions --bare) already installed"
 else
-  echo "Installing Python & conda with pyenv..."
+  echo "Installing Python & Conda with pyenv..."
   pyenv install miniforge3-4.9.2 # Python 3.8.8
-  pyenv install miniforge3-4.10.1-5 # Python 3.9.5 
-  pyenv global miniforge3-4.10.1-5
+  pyenv install miniforge3-4.10.3-10 # Python 3.9.7
+  pyenv global miniforge3-4.10.3-10
 fi
 
 pip install --user --upgrade pip
-
-pipx install nox
-pipx inject nox nox-poetry
-pipx install cookiecutter
-pipx install pre-commit
 
 echo "Global Python Versions Installed:"
 pyenv versions

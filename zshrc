@@ -1,8 +1,15 @@
 echo 'Hello from .zshrc'
 
+
+# Enable custom auto completion for commands
+autoload -Uz compinit
+compinit
+
+
 source ~/.zshrc.d/hello.zshrc
 source ~/.zshrc.d/homebrew.zshrc
 source ~/.zshrc.d/pyenv.zshrc
+source ~/.zshrc.d/pipx.zshrc
 source ~/.zshrc.d/jenv.zshrc # Java version manager
 source ~/.zshrc.d/n.zshrc # Node version manager
 
@@ -14,11 +21,6 @@ export SNOWFLAKE_TRANSFORM_WAREHOUSE=DATATECH_XS
 export SNOWFLAKE_LOAD_DATABASE=RAW
 export SNOWFLAKE_SNAPSHOT_DATABASE='SNOWFLAKE'
 
-# Change ZSH Options
-# Enable custom auto completion for commands
-autoload -Uz compinit
-compinit
-
 
 # Create Aliases
 alias ls='exa --long --all --classify --header --git' # -laFh --git
@@ -26,7 +28,7 @@ alias exa='exa --long --all --classify --header --git' # -laFh --git
 alias man=batman
 alias grep='grep --color=auto'
 alias trail='<<<${(F)path}'
-alias rm=trash
+alias rm=trash # Installed from node
 alias l4b=log4brains
 
 
@@ -38,7 +40,8 @@ RPROMPT='%*'
 
 
 # Add Locations to the $path Array
-typeset -U path
+
+typeset -U path # removes duplicates of the path array
 
 path=(
   "$PYENV_ROOT/bin"

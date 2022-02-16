@@ -40,4 +40,7 @@
   - command: ./setup/docker.zsh
     stdout: True
     stderr: True
+  - command: ./setup/pipx.zsh
+    stdout: True
+    stderr: True
 
