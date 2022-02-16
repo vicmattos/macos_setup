@@ -12,6 +12,7 @@ source ~/.zshrc.d/pyenv.zshrc
 source ~/.zshrc.d/pipx.zshrc
 source ~/.zshrc.d/jenv.zshrc # Java version manager
 source ~/.zshrc.d/n.zshrc # Node version manager
+source ~/.zshrc.d/k3d.zshrc
 
 
 # Set Veriables
@@ -64,6 +65,4 @@ function mkcd() {
 
 
 # ...and Other Surprises
-# k3d command completion
-eval "$(k3d completion zsh)"
 
