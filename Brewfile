@@ -1,20 +1,13 @@
-tap "astronomer/tap"
 tap "dbt-labs/dbt"
 tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "nathan-v/aws-okta-keyman"
-# AWS Cloud Development Kit - framework for defining AWS infra as code
-brew "aws-cdk"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Create Docker hosts locally and on cloud providers
-brew "docker-machine"
-# Docker Machine driver for xhyve
-brew "docker-machine-driver-xhyve"
 # Modern replacement for 'ls'
 brew "exa"
 # GitHub command-line tool
@@ -53,20 +46,14 @@ brew "poetry"
 brew "pyenv"
 # Make Python build faster, using the leverage of `ccache`
 brew "pyenv-ccache"
-# Pyenv plugin to manage virtualenv
-brew "pyenv-virtualenv"
 # Tool to build, change, and version infrastructure
 brew "terraform"
 # Simplified and community-driven man pages
 brew "tldr"
 # Vi 'workalike' with many additional features
 brew "vim"
-# Lightweight macOS virtualization solution based on FreeBSD's bhyve
-brew "xhyve"
 # UNIX shell (command interpreter)
 brew "zsh"
-# To build and run Airflow DAGs locally via docker-compose and deploy DAGs to Astronomer-managed Airflow clusters and interact with the Astronomer API.
-brew "astronomer/tap/astro"
 # Data build tool
 brew "dbt-labs/dbt/dbt"
 # Bash scripts that integrate bat with various command-line tools
@@ -95,8 +82,6 @@ cask "iterm2"
 cask "slack"
 # Music streaming service
 cask "spotify"
-# Free and open-source hosted hypervisor for x86 virtualization
-cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
 # Desktop client for WhatsApp
