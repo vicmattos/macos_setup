@@ -19,9 +19,6 @@ source ~/.zshrc.d/k3d.zshrc
 # Set Veriables
 export EDITOR="code --wait"
 export NULLCMD=bat
-export SNOWFLAKE_TRANSFORM_WAREHOUSE=DATATECH_XS
-export SNOWFLAKE_LOAD_DATABASE=RAW
-export SNOWFLAKE_SNAPSHOT_DATABASE='SNOWFLAKE'
 
 
 # Create Aliases
