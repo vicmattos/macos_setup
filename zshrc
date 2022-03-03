@@ -5,6 +5,9 @@ echo 'Hello from .zshrc'
 autoload -Uz compinit
 compinit
 
+# Removes duplicates of the path array
+typeset -U path
+
 
 source ~/.zshrc.d/hello.zshrc
 source ~/.zshrc.d/homebrew.zshrc
@@ -40,23 +43,7 @@ PROMPT='
 RPROMPT='%*'
 
 
-# Add Locations to the $path Array
-
-typeset -U path # removes duplicates of the path array
-
 path=(
-  "$PYENV_ROOT/bin"
-  "$PYENV_ROOT/shims"
-  "$N_PREFIX/bin"
-  "$JENV_ROOT/bin"
   $path
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-  "$HOME/.local/bin" # pipx ensurepath
 )
-
-
-# Use ZSH Plugins
-
-
-# ...and Other Surprises
-
