@@ -13,6 +13,8 @@ brew "exa"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Go version management
+brew "goenv"
 # Kubernetes package manager
 brew "helm"
 # User-friendly cURL replacement (command-line HTTP client)

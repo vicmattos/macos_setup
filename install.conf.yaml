@@ -34,6 +34,9 @@
   - command: ./setup/node.zsh
     stdout: True
     stderr: True
+  - command: ./setup/go.zsh
+    stdout: True
+    stderr: True
   - command: ./setup/java.zsh
     stdout: True
     stderr: True
