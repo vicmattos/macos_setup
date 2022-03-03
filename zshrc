@@ -15,6 +15,8 @@ source ~/.zshrc.d/jenv.zshrc # Java version manager
 source ~/.zshrc.d/n.zshrc # Node version manager
 source ~/.zshrc.d/k3d.zshrc
 
+source ~/.zshrc.d/function/mkcd.zshrc
+
 
 # Set Veriables
 export EDITOR="code --wait"
@@ -51,12 +53,6 @@ path=(
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
   "$HOME/.local/bin" # pipx ensurepath
 )
-
-
-# Write Handy Functions
-function mkcd() {
-  mkdir -p "$@" && cd "$_";
-}
 
 
 # Use ZSH Plugins
