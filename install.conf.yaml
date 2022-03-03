@@ -9,6 +9,9 @@
     ~/.zshrc.d:
       create: true
       path: zshrc.d
+    ~/.zshenv.d:
+      create: true
+      path: zshenv.d
     ~/.zshenv:
     ~/.gitconfig:
     ~/.config/bat:
