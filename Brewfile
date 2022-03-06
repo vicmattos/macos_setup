@@ -55,6 +55,8 @@ brew "tldr"
 brew "vim"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Additional completion definitions for zsh
+brew "zsh-completions"
 # Data build tool
 brew "dbt-labs/dbt/dbt"
 # Bash scripts that integrate bat with various command-line tools

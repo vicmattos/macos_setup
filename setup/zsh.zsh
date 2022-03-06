@@ -31,3 +31,10 @@ else
   # I'd like for this to work instead.
   # sudo ln -sfv /usr/local/bin/zsh /private/var/select/sh
 fi
+
+# zsh-completions Caveats
+# $ brew info zsh-completions
+if false; then
+  rm -f ~/.zcompdump; compinit
+  chmod -R go-w '/usr/local/share/zsh'
+fi

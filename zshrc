@@ -11,6 +11,7 @@ typeset -U path
 
 source ~/.zshrc.d/hello.zshrc
 source ~/.zshrc.d/homebrew.zshrc
+# source ~/.zshrc.d/zsh.zshrc
 source ~/.zshrc.d/pyenv.zshrc
 source ~/.zshrc.d/goenv.zshrc
 source ~/.zshrc.d/pipx.zshrc
