@@ -1,5 +1,6 @@
 tap "dbt-labs/dbt"
 tap "eth-p/software"
+tap "go-task/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -61,6 +62,8 @@ brew "zsh-completions"
 brew "dbt-labs/dbt/dbt"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
+# Task runner / simpler Make alternative written in Go
+brew "go-task/tap/go-task"
 # Application launcher and productivity software
 cask "alfred"
 # Universal database tool and SQL client
