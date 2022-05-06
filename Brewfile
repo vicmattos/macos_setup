@@ -4,12 +4,12 @@ tap "go-task/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-# Official Amazon AWS command-line interface
-brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
 brew "exa"
+# GNU compiler collection
+brew "gcc"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -18,11 +18,15 @@ brew "git"
 brew "goenv"
 # Kubernetes package manager
 brew "helm"
+# Command-line interface for SQLite
+brew "sqlite"
+# General-purpose data compression with high compression ratio
+brew "xz"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Manage your Java environment
 brew "jenv"
-# Little helper to run Rancher Lab's k3s in Docker
+# Little helper to run CNCF's k3s in Docker
 brew "k3d"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
@@ -30,6 +34,8 @@ brew "kubectx"
 brew "lastpass-cli"
 # Pager program similar to more
 brew "less"
+# Key-value storage library with ordered mapping
+brew "leveldb"
 # Mac App Store command-line interface
 brew "mas"
 # Node version management
@@ -58,8 +64,6 @@ brew "vim"
 brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
-# Data build tool
-brew "dbt-labs/dbt/dbt"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # Task runner / simpler Make alternative written in Go
@@ -82,6 +86,8 @@ cask "gitkraken"
 cask "google-chrome"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
