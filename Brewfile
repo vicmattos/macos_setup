@@ -42,6 +42,8 @@ brew "leveldb"
 brew "mas"
 # Node version management
 brew "n"
+# Open client for Cisco AnyConnect VPN
+brew "openconnect"
 # Development kit for the Java programming language
 brew "openjdk"
 # Development kit for the Java programming language
