@@ -32,8 +32,6 @@ brew "jq"
 brew "k3d"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
-# LastPass command-line interface tool
-brew "lastpass-cli"
 # Pager program similar to more
 brew "less"
 # Key-value storage library with ordered mapping
