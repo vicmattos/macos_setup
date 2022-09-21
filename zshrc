@@ -13,9 +13,7 @@ source ~/.zshrc.d/hello.zshrc
 source ~/.zshrc.d/homebrew.zshrc
 # source ~/.zshrc.d/zsh.zshrc
 source ~/.zshrc.d/pyenv.zshrc
-source ~/.zshrc.d/goenv.zshrc
 source ~/.zshrc.d/pipx.zshrc
-source ~/.zshrc.d/jenv.zshrc # Java version manager
 source ~/.zshrc.d/n.zshrc # Node version manager
 source ~/.zshrc.d/k3d.zshrc
 

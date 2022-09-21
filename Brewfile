@@ -18,8 +18,6 @@ brew "git"
 brew "xz"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
-# Manage your Java environment
-brew "jenv"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Little helper to run CNCF's k3s in Docker
@@ -36,12 +34,6 @@ brew "mas"
 brew "n"
 # Open client for Cisco AnyConnect VPN
 brew "openconnect"
-# Development kit for the Java programming language
-brew "openjdk"
-# Development kit for the Java programming language
-brew "openjdk@11"
-# Development kit for the Java programming language
-brew "openjdk@8"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python package management tool
