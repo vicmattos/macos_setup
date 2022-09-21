@@ -4,10 +4,6 @@ tap "go-task/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-# General-purpose data compression with high compression ratio
-brew "xz"
-# Official Amazon AWS command-line interface
-brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -22,6 +18,8 @@ brew "git"
 brew "goenv"
 # Kubernetes package manager
 brew "helm"
+# General-purpose data compression with high compression ratio
+brew "xz"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Manage your Java environment
