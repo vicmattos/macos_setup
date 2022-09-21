@@ -14,8 +14,6 @@ brew "gcc"
 brew "gh"
 # Distributed revision control system
 brew "git"
-# Kubernetes package manager
-brew "helm"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # User-friendly cURL replacement (command-line HTTP client)
