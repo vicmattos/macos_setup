@@ -74,6 +74,8 @@ brew "go-task/tap/go-task"
 cask "alfred"
 # Universal database tool and SQL client
 cask "dbeaver-community"
+# Design, document and deploy databases
+cask "dbschema"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
