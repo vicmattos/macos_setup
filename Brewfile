@@ -14,8 +14,6 @@ brew "gcc"
 brew "gh"
 # Distributed revision control system
 brew "git"
-# Go version management
-brew "goenv"
 # Kubernetes package manager
 brew "helm"
 # General-purpose data compression with high compression ratio
