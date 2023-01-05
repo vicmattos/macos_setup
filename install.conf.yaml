@@ -9,10 +9,10 @@
     ~/.zshrc.d:
       create: true
       path: zshrc.d
+    ~/.zshenv:
     ~/.zshenv.d:
       create: true
       path: zshenv.d
-    ~/.zshenv:
     ~/.gitconfig:
     ~/.config/bat:
       create: true
@@ -37,16 +37,25 @@
   - command: ./setup/node.zsh
     stdout: True
     stderr: True
-  - command: ./setup/go.zsh
+  - command: ./setup/trash-cli.zsh
     stdout: True
     stderr: True
-  - command: ./setup/java.zsh
+  - command: ./setup/serverless.zsh
+    stdout: True
+    stderr: True
+  - command: ./setup/log4brains.zsh
     stdout: True
     stderr: True
   - command: ./setup/docker.zsh
     stdout: True
     stderr: True
-  - command: ./setup/pipx.zsh
+  - command: ./setup/pre-commit.zsh
+    stdout: True
+    stderr: True
+  - command: ./setup/nox.zsh
+    stdout: True
+    stderr: True
+  - command: ./setup/cookiecutter.zsh
     stdout: True
     stderr: True
 
