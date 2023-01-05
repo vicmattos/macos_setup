@@ -60,6 +60,8 @@ brew "pyenv-ccache"
 brew "python@3.9"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
+# Terraform version manager inspired by rbenv
+brew "tfenv"
 # Simplified and community-driven man pages
 brew "tldr"
 # Vi 'workalike' with many additional features

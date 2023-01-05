@@ -16,6 +16,7 @@ source ~/.zshrc.d/k3d.zshrc
 source ~/.zshrc.d/n.zshrc # Node version manager
 source ~/.zshrc.d/pipx.zshrc
 source ~/.zshrc.d/pyenv.zshrc
+source ~/.zshrc.d/tfenv.zshrc
 source ~/.zshrc.d/vscode.zshrc
 # source ~/.zshrc.d/zsh.zshrc
 
