@@ -11,9 +11,8 @@ if [ $(pyenv versions --bare) ]; then
 else
   # CC=$(brew --prefix gcc) pyenv install 3.8.12
   echo "Installing Python & Conda with pyenv..."
-  pyenv install miniforge3-4.9.2 # Python 3.8.8
-  pyenv install miniforge3-4.10.3-10 # Python 3.9.7
-  pyenv global miniforge3-4.10.3-10
+  pyenv install 3.10.7
+  pyenv global 3.10.7
 fi
 
 pip install --user --upgrade pip

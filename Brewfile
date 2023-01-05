@@ -4,6 +4,10 @@ tap "go-task/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -14,8 +18,14 @@ brew "gcc"
 brew "gh"
 # Distributed revision control system
 brew "git"
-# General-purpose data compression with high compression ratio
-brew "xz"
+# GNU Ubiquitous Intelligent Language for Extensions
+brew "guile"
+# Library to load and enumerate PKCS#11 modules
+brew "p11-kit"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Lightweight and flexible command-line JSON processor
@@ -32,18 +42,24 @@ brew "leveldb"
 brew "mas"
 # Node version management
 brew "n"
+# Platform built on V8 to build network applications
+brew "node"
 # Open client for Cisco AnyConnect VPN
 brew "openconnect"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python package management tool
 brew "poetry"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
 # Python version management
 brew "pyenv"
 # Make Python build faster, using the leverage of `ccache`
 brew "pyenv-ccache"
-# Tool to build, change, and version infrastructure
-brew "terraform"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
 # Simplified and community-driven man pages
 brew "tldr"
 # Vi 'workalike' with many additional features

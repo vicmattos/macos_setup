@@ -9,15 +9,23 @@ compinit
 typeset -U path
 
 
+# Configure Tools
 source ~/.zshrc.d/hello.zshrc
 source ~/.zshrc.d/homebrew.zshrc
-# source ~/.zshrc.d/zsh.zshrc
-source ~/.zshrc.d/pyenv.zshrc
-source ~/.zshrc.d/pipx.zshrc
-source ~/.zshrc.d/n.zshrc # Node version manager
 source ~/.zshrc.d/k3d.zshrc
+source ~/.zshrc.d/n.zshrc # Node version manager
+source ~/.zshrc.d/pipx.zshrc
+source ~/.zshrc.d/pyenv.zshrc
+source ~/.zshrc.d/vscode.zshrc
+# source ~/.zshrc.d/zsh.zshrc
 
+
+# Create Functions
 source ~/.zshrc.d/function/mkcd.zshrc
+
+source ~/.zshrc.d/function/sothebys/aws-profile.zshrc
+source ~/.zshrc.d/function/sothebys/vm-active.zshrc
+source ~/.zshrc.d/function/sothebys/vm-logs.zshrc
 
 
 # Set Veriables
@@ -40,9 +48,3 @@ PROMPT='
 %1~ %L %# '
 
 RPROMPT='%*'
-
-
-path=(
-  $path
-  "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-)
