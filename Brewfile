@@ -36,10 +36,6 @@ brew "httpie"
 brew "jq"
 # Implementation of JSON Schema for Python
 brew "jsonschema"
-# Little helper to run CNCF's k3s in Docker
-brew "k3d"
-# Tool that can switch between kubectl contexts easily and create aliases
-brew "kubectx"
 # Pager program similar to more
 brew "less"
 # Key-value storage library with ordered mapping
