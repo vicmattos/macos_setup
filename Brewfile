@@ -20,16 +20,22 @@ brew "gh"
 brew "git"
 # GNU Ubiquitous Intelligent Language for Extensions
 brew "guile"
+# International domain name library (IDNA2008, Punycode and TR46)
+brew "libidn2"
 # Library to load and enumerate PKCS#11 modules
 brew "p11-kit"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Implementation of JSON Schema for Python
+brew "jsonschema"
 # Little helper to run CNCF's k3s in Docker
 brew "k3d"
 # Tool that can switch between kubectl contexts easily and create aliases
@@ -58,8 +64,6 @@ brew "pyenv"
 brew "pyenv-ccache"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
-# Powerful, clean, object-oriented scripting language
-brew "ruby"
 # Terraform version manager inspired by rbenv
 brew "tfenv"
 # Simplified and community-driven man pages
