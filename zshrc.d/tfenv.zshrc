@@ -1,2 +1,2 @@
 
-export TFENV_ARCH=arm64
+export TFENV_ARCH=amd64
