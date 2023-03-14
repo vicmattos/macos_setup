@@ -4,6 +4,7 @@ tap "go-task/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "pantsbuild/tap"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # Official Amazon AWS command-line interface
@@ -18,8 +19,6 @@ brew "gcc"
 brew "gh"
 # Distributed revision control system
 brew "git"
-# GNU Ubiquitous Intelligent Language for Extensions
-brew "guile"
 # International domain name library (IDNA2008, Punycode and TR46)
 brew "libidn2"
 # Library to load and enumerate PKCS#11 modules
@@ -98,6 +97,8 @@ cask "google-cloud-sdk"
 cask "iterm2"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# Fast, scalable, user-friendly build system for codebases of all sizes
+cask "pants"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
