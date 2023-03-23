@@ -31,6 +31,8 @@ brew "gnutls"
 brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Manage your Java environment
+brew "jenv"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Implementation of JSON Schema for Python
@@ -47,6 +49,10 @@ brew "n"
 brew "node"
 # Open client for Cisco AnyConnect VPN
 brew "openconnect"
+# Development kit for the Java programming language
+brew "openjdk"
+# Development kit for the Java programming language
+brew "openjdk@8"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Python package management tool

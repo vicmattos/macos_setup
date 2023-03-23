@@ -12,6 +12,7 @@ typeset -U path
 # Configure Tools
 source ~/.zshrc.d/hello.zshrc
 source ~/.zshrc.d/homebrew.zshrc
+source ~/.zshrc.d/jenv.zshrc
 source ~/.zshrc.d/n.zshrc # Node version manager
 source ~/.zshrc.d/pipx.zshrc
 source ~/.zshrc.d/pyenv.zshrc
