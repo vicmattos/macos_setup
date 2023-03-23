@@ -25,37 +25,37 @@
     - ~/Work/Courses
 
 - shell:
-  - command: ./setup/homebrew.zsh
-    stdout: True
-    stderr: True
-  - command: ./setup/zsh.zsh
-    stdout: True
-    stderr: True
-  - command: ./setup/python.zsh
-    stdout: True
-    stderr: True
-  - command: ./setup/node.zsh
-    stdout: True
-    stderr: True
-  - command: ./setup/trash-cli.zsh
-    stdout: True
-    stderr: True
-  - command: ./setup/serverless.zsh
-    stdout: True
-    stderr: True
-  - command: ./setup/log4brains.zsh
+  - command: ./setup/cookiecutter.zsh
     stdout: True
     stderr: True
   - command: ./setup/docker.zsh
     stdout: True
     stderr: True
-  - command: ./setup/pre-commit.zsh
+  - command: ./setup/homebrew.zsh
+    stdout: True
+    stderr: True
+  - command: ./setup/log4brains.zsh
+    stdout: True
+    stderr: True
+  - command: ./setup/node.zsh
     stdout: True
     stderr: True
   - command: ./setup/nox.zsh
     stdout: True
     stderr: True
-  - command: ./setup/cookiecutter.zsh
+  - command: ./setup/pre-commit.zsh
+    stdout: True
+    stderr: True
+  - command: ./setup/python.zsh
+    stdout: True
+    stderr: True
+  - command: ./setup/serverless.zsh
+    stdout: True
+    stderr: True
+  - command: ./setup/trash-cli.zsh
+    stdout: True
+    stderr: True
+  - command: ./setup/zsh.zsh
     stdout: True
     stderr: True
 
