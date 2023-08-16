@@ -17,8 +17,6 @@ brew "exa"
 brew "git"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Pager program similar to more
-brew "less"
 # Mac App Store command-line interface
 brew "mas"
 # Platform built on V8 to build network applications
@@ -29,8 +27,6 @@ brew "pyenv"
 brew "pyenv-ccache"
 # Terraform version manager inspired by rbenv
 brew "tfenv"
-# Simplified and community-driven man pages
-brew "tldr"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Additional completion definitions for zsh
