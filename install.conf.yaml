@@ -14,42 +14,18 @@
       create: true
       path: zshenv.d
     ~/.gitconfig:
-    ~/.config/bat:
-      create: true
-      path: config/bat
 
 - create:
     - ~/Work/Personal/Current
     - ~/Work/Personal/Archive
-    - ~/Work/Sandbox
-    - ~/Work/Courses
+    - ~/Work/Personal/Sandbox
+    - ~/Work/Personal/Courses
 
 - shell:
-  - command: ./setup/cookiecutter.zsh
-    stdout: True
-    stderr: True
   - command: ./setup/docker.zsh
     stdout: True
     stderr: True
   - command: ./setup/homebrew.zsh
-    stdout: True
-    stderr: True
-  - command: ./setup/log4brains.zsh
-    stdout: True
-    stderr: True
-  - command: ./setup/node.zsh
-    stdout: True
-    stderr: True
-  - command: ./setup/nox.zsh
-    stdout: True
-    stderr: True
-  - command: ./setup/pre-commit.zsh
-    stdout: True
-    stderr: True
-  - command: ./setup/python.zsh
-    stdout: True
-    stderr: True
-  - command: ./setup/serverless.zsh
     stdout: True
     stderr: True
   - command: ./setup/trash-cli.zsh
