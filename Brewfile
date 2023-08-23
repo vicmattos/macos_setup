@@ -5,6 +5,8 @@ brew "xz"
 brew "zstd"
 # Object-file caching compiler wrapper
 brew "ccache"
+# Emulator for x86 and PowerPC
+brew "qemu"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 # Pack, ship and run any application as a lightweight container

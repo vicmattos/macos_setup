@@ -22,6 +22,9 @@
     - ~/Work/Personal/Courses
 
 - shell:
+  - command: ./setup/colima.zsh
+    stdout: True
+    stderr: True
   - command: ./setup/homebrew.zsh
     stdout: True
     stderr: True
@@ -31,4 +34,3 @@
   - command: ./setup/zsh.zsh
     stdout: True
     stderr: True
-
