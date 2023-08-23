@@ -1,12 +1,14 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # Zstandard is a real-time compression algorithm
 brew "zstd"
 # Object-file caching compiler wrapper
 brew "ccache"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
 # C library of Git core methods that is re-entrant and linkable
 brew "libgit2"
 # Cryptography and SSL/TLS Toolkit
@@ -35,8 +37,6 @@ brew "zsh-completions"
 cask "alfred"
 # Chromium based browser
 cask "arc"
-# App to build and share containerized applications and microservices
-cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Team communication and collaboration software

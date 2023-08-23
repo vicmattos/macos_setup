@@ -22,9 +22,6 @@
     - ~/Work/Personal/Courses
 
 - shell:
-  - command: ./setup/docker.zsh
-    stdout: True
-    stderr: True
   - command: ./setup/homebrew.zsh
     stdout: True
     stderr: True
