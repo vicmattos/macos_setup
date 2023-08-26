@@ -25,9 +25,6 @@
   - command: ./setup/colima.zsh
     stdout: True
     stderr: True
-  - command: ./setup/docker.zsh
-    stdout: True
-    stderr: True
   - command: ./setup/homebrew.zsh
     stdout: True
     stderr: True
