@@ -11,6 +11,8 @@ brew "qemu"
 brew "colima"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
+# Isolated development environments using Docker
+brew "docker-compose"
 # C library of Git core methods that is re-entrant and linkable
 brew "libgit2"
 # Cryptography and SSL/TLS Toolkit
@@ -21,6 +23,8 @@ brew "exa"
 brew "git"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Mac App Store command-line interface
 brew "mas"
 # Platform built on V8 to build network applications
