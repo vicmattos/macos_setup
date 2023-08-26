@@ -51,6 +51,8 @@ cask "slack"
 cask "spotify"
 # Open-source code editor
 cask "visual-studio-code"
+# Binary releases of VS Code without MS branding/telemetry/licensing
+cask "vscodium"
 # Desktop client for WhatsApp
 cask "whatsapp"
 # Video communication and virtual meeting platform
