@@ -55,7 +55,7 @@ cask "spotify"
 cask "visual-studio-code"
 # Binary releases of VS Code without MS branding/telemetry/licensing
 cask "vscodium"
-# Desktop client for WhatsApp
+# Native desktop client for WhatsApp
 cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
