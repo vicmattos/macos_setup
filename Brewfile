@@ -43,6 +43,8 @@ brew "zsh-completions"
 cask "alfred"
 # Chromium based browser
 cask "arc"
+# Voice and text chat software
+cask "discord"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Team communication and collaboration software
