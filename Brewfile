@@ -21,6 +21,8 @@ brew "openssl@1.1"
 brew "exa"
 # Distributed revision control system
 brew "git"
+# Task is a task runner/build tool that aims to be simpler and easier to use
+brew "go-task"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Kubernetes command-line interface
