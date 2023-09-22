@@ -3,7 +3,7 @@ echo 'Hello from .zshrc'
 
 # Enable custom auto completion for commands
 autoload -Uz compinit
-compinit
+compinit -D
 
 # Removes duplicates of the path array
 typeset -U path
