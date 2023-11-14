@@ -1,4 +1,6 @@
 tap "homebrew/bundle"
+# Run your GitHub Actions locally
+brew "act"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # Zstandard is a real-time compression algorithm
@@ -15,8 +17,6 @@ brew "docker"
 brew "docker-compose"
 # C library of Git core methods that is re-entrant and linkable
 brew "libgit2"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
 # Modern replacement for 'ls'
 brew "exa"
 # Distributed revision control system
@@ -31,6 +31,8 @@ brew "kubernetes-cli"
 brew "mas"
 # Platform built on V8 to build network applications
 brew "node"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # Python version management
 brew "pyenv"
 # Make Python build faster, using the leverage of `ccache`
@@ -59,12 +61,9 @@ cask "visual-studio-code"
 cask "vscodium"
 # Native desktop client for WhatsApp
 cask "whatsapp"
-# Video communication and virtual meeting platform
-cask "zoom"
 mas "LastPass", id: 926036361
 vscode "dracula-theme.theme-dracula"
 vscode "EditorConfig.EditorConfig"
-vscode "hashicorp.terraform"
 vscode "janisdd.vscode-edit-csv"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.python"
