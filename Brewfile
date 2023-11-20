@@ -23,6 +23,8 @@ brew "exa"
 brew "git"
 # Task is a task runner/build tool that aims to be simpler and easier to use
 brew "go-task"
+# Go version management
+brew "goenv"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Kubernetes command-line interface
@@ -64,6 +66,7 @@ cask "whatsapp"
 mas "LastPass", id: 926036361
 vscode "dracula-theme.theme-dracula"
 vscode "EditorConfig.EditorConfig"
+vscode "golang.go"
 vscode "janisdd.vscode-edit-csv"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.python"
