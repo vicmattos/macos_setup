@@ -21,6 +21,7 @@ source ~/.zshrc.d/vscode.zshrc
 
 # Create Functions
 source ~/.zshrc.d/function/mkcd.zshrc
+source ~/.zshrc.d/function/git_clone_dir.zshrc
 
 
 # Set Veriables
