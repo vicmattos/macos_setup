@@ -10,3 +10,5 @@
 	l = !git log --pretty=format:'%C(blue)%h - %C(brightcyan)%cn, %C(brightgreen)%cs %C(green)(%cr) %C(white)%s %C(red)%d'
 [init]
 	defaultBranch = main
+[push]
+	autoSetupRemote = true
