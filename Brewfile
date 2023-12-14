@@ -19,6 +19,8 @@ brew "docker-compose"
 brew "libgit2"
 # Modern replacement for 'ls'
 brew "exa"
+# GitHub command-line tool
+brew "gh"
 # Distributed revision control system
 brew "git"
 # Task is a task runner/build tool that aims to be simpler and easier to use
@@ -66,6 +68,7 @@ cask "whatsapp"
 mas "LastPass", id: 926036361
 vscode "dracula-theme.theme-dracula"
 vscode "EditorConfig.EditorConfig"
+vscode "github.vscode-github-actions"
 vscode "golang.go"
 vscode "janisdd.vscode-edit-csv"
 vscode "ms-azuretools.vscode-docker"
