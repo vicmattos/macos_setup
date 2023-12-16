@@ -65,6 +65,8 @@ cask "visual-studio-code"
 cask "vscodium"
 # Native desktop client for WhatsApp
 cask "whatsapp"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "LastPass", id: 926036361
 vscode "dracula-theme.theme-dracula"
 vscode "EditorConfig.EditorConfig"
