@@ -23,10 +23,10 @@ brew "exa"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Task is a task runner/build tool that aims to be simpler and easier to use
 brew "go-task"
-# Go version management
-brew "goenv"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Kubernetes command-line interface
