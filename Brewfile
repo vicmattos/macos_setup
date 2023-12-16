@@ -1,6 +1,4 @@
 tap "homebrew/bundle"
-# Run your GitHub Actions locally
-brew "act"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # Zstandard is a real-time compression algorithm
@@ -79,3 +77,4 @@ vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode.makefile-tools"
 vscode "PKief.material-icon-theme"
 vscode "tamasfe.even-better-toml"
+vscode "vscodevim.vim"
