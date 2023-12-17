@@ -13,6 +13,7 @@ typeset -U path
 source ~/.zshrc.d/hello.zshrc
 source ~/.zshrc.d/homebrew.zshrc
 source ~/.zshrc.d/pyenv.zshrc
+source ~/.zshrc.d/go.zshrc
 source ~/.zshrc.d/vscode.zshrc
 # source ~/.zshrc.d/zsh.zshrc
 
