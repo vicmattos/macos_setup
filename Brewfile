@@ -5,8 +5,6 @@ brew "xz"
 brew "zstd"
 # Object-file caching compiler wrapper
 brew "ccache"
-# Emulator for x86 and PowerPC
-brew "qemu"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
 # Pack, ship and run any application as a lightweight container
@@ -27,8 +25,6 @@ brew "go"
 brew "go-task"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Kubernetes command-line interface
-brew "kubernetes-cli"
 # Mac App Store command-line interface
 brew "mas"
 # Platform built on V8 to build network applications
@@ -39,8 +35,6 @@ brew "openssl@1.1"
 brew "pyenv"
 # Make Python build faster, using the leverage of `ccache`
 brew "pyenv-ccache"
-# Terraform version manager inspired by rbenv
-brew "tfenv"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Additional completion definitions for zsh
