@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+tap "homebrew/services"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # Zstandard is a real-time compression algorithm
