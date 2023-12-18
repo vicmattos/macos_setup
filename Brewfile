@@ -16,6 +16,8 @@ brew "docker-compose"
 brew "libgit2"
 # Modern replacement for 'ls'
 brew "exa"
+# Command-line tools for fly.io services
+brew "flyctl"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
